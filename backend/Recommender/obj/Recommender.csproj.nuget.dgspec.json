@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fitzk\\OneDrive - Brigham Young University\\IS455\\Reccommender_deployment\\backend\\Recommender\\Recommender.csproj": {}
+    "/Users/rebeccaharrison/Desktop/IS455/Reccommender_deployment/backend/Recommender/Recommender.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fitzk\\OneDrive - Brigham Young University\\IS455\\Reccommender_deployment\\backend\\Recommender\\Recommender.csproj": {
+    "/Users/rebeccaharrison/Desktop/IS455/Reccommender_deployment/backend/Recommender/Recommender.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fitzk\\OneDrive - Brigham Young University\\IS455\\Reccommender_deployment\\backend\\Recommender\\Recommender.csproj",
+        "projectUniqueName": "/Users/rebeccaharrison/Desktop/IS455/Reccommender_deployment/backend/Recommender/Recommender.csproj",
         "projectName": "Recommender",
-        "projectPath": "C:\\Users\\fitzk\\OneDrive - Brigham Young University\\IS455\\Reccommender_deployment\\backend\\Recommender\\Recommender.csproj",
-        "packagesPath": "C:\\Users\\fitzk\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fitzk\\OneDrive - Brigham Young University\\IS455\\Reccommender_deployment\\backend\\Recommender\\obj\\",
+        "projectPath": "/Users/rebeccaharrison/Desktop/IS455/Reccommender_deployment/backend/Recommender/Recommender.csproj",
+        "packagesPath": "/Users/rebeccaharrison/.nuget/packages/",
+        "outputPath": "/Users/rebeccaharrison/Desktop/IS455/Reccommender_deployment/backend/Recommender/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\fitzk\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/rebeccaharrison/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,6 +44,18 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "CsvHelper": {
+              "target": "Package",
+              "version": "[33.0.1, )"
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -74,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
