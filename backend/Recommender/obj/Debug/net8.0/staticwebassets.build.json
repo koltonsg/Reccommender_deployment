@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "4m4y9C9aSNECOxNBdC5LqJKG49eb2RAboyKHaHdwI6g=",
+  "Source": "Recommender",
+  "BasePath": "_content/Recommender",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
